@@ -20,6 +20,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home, name='home'),
     path('generatedpassword/', views.password, name='password'),
-    path('guidovan/', views.guido, name='guido')
 
 ]
